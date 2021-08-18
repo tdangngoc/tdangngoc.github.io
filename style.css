@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#main-header {
+    background-color: #3091CD;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.container .photo_profil {
+    float: left;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding-right: 7%;
+    position: absolute;
+    max-height: 220px;
+    top: 30%;
+}
+
+#main-header .container h1 {
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+#main-header .container p {
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 0px 8px;
+}
+
+#parcours_scolaire {
+    background-color: #B5C3CB;
+}
+
+#parcours_scolaire h1 {
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.8em;
+}
+
+li {
+    padding: 8px 0px;
+    border-bottom: solid;
+}
+
+span[class="bold"]{
+    font-weight: bold;
+}
+
+#experience_profesionnelle h1 {
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+#centre_interet {
+    background-color: #336D8E;
+}
+
+#centre_interet h1 {
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
